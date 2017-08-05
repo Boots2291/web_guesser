@@ -1,7 +1,6 @@
 require 'sinatra'
 require 'sinatra/reloader'
 
-# random_number = rand(101)
 set :random_number, rand(101)
 
 def check_guess(guess)
